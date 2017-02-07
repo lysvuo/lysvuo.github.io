@@ -304,12 +304,7 @@ margin-top:70px;
 
 
 
-@media screen and (max-width:800px){
-#cityscape {
 
-}
-
-}
 
 
 #designer {
@@ -414,7 +409,10 @@ p{
 	padding-right:30px;
 	line-height:24px;
 }
-
+.bio {
+	line-height:30px;
+	font-size:90%;
+}
 #whitesection {
 	text-align:center;
 	font-size:120%;
@@ -432,9 +430,26 @@ footer {
 	color:white;
 	font-size:12px;
 	line-height:180%;
-	position:inline-block;
+	display:block;
 	height:200px;
 bottom:0;
+}
+.footer2 {
+	background-color:#2b3956;
+	margin-top:300px;
+	padding-top:50px;
+	margin-bottom:0px;
+	padding-bottom:50px;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	line-height:180%;
+	display:inline-block;
+	height:200px;
+width:100%;
+
+
+
 }
 
  .footertext {
@@ -485,13 +500,105 @@ a.button {
    
 }
 
+#ugh {
+	width:100%;
+	margin:0;
+	display:block;
+}
+
 a.button:hover {
     background-color: #2b3956;;
     border: 1px solid #eaebef;
     color: #eaebef;
     }
+  .circ {
+  	width:80%
+  ;
+  height:80%;
+  	float:right;
+  	min-width:200px;
+  	min-height:auto;
+  	padding-bottom:50px;
+  	padding-left:10%;
+  	padding-right:10%;
+  	padding-top:30px;
+  }
 
+  #left {
+  	padding-top:200px;
+width:30%;
+float:left;
+display:inline;
+
+
+
+
+
+  }
+  .bars {
+  	width:400px;
+  	height:auto;
+  }
+
+  #greybox {
+  	background-color:#e4e4e4;
+  	width:100%;
+  	text-align:center;
+  	padding-bottom:100px;
+
+  }
+
+
+#right {
+	width:50%;
+	padding-top:120px;
+	float: left;
+	padding-right:10px;
+display:inline;
+margin-left:50px;}
+
+#fun {
+
+}
+
+
+h3 {
+	font-family:leaguespartan;
+	font-size:20px;
+}
+h2 {
+	font-family:leaguespartan;
+	color:#e4e4e4;
+	font-size:30px;
+	margin-left:26px;
+}
+
+
+a.bluebutton {
+   -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    text-decoration: none;
+    background-color: #2b3956;
+    border: 1px solid white;;
+    color: white;
+    padding: 8px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+   font-weight:bold;
+   border-radius:10px;
+   font-family:leaguespartan;
+    
+
+
+
+
+	}
   @media screen and (max-width:1200px){
+
+
 
 .spacer {
 	width:50%;
@@ -505,6 +612,46 @@ padding-top:50px;
 	margin:0px;
 position:inline;
 }
+}
+@media screen and (max-width:930px){
+
+#ugh {
+	overflow-x: hidden;
+
+}
+#right {
+	display:block;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	overflow-x:hidden;
+
+}
+
+#left {
+	padding-top:5%;
+	width:100%;
+	overflow-x:hidden;
+}
+.circ {
+	width:40%;
+	display:block;
+	float:left;
+	margin-left:20%;
+	margin-right:20%;
+}
+#greybox {
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	overflow-x:hidden;
+
+}
+
+.bars {
+	width:80%;
+}
+
 }
 
 @media screen and (max-width:700px){
@@ -548,6 +695,21 @@ li {padding:10px;}
 	background-repeat:no-repeat;
 }
 
+
+}
+
+@media screen and (max-width:500px){
+#ugh {
+	overflow-x: hidden;
+	font-size:80%;
+
+}
+.bio {
+	line-height:180%;
+}
+.circ {
+	margin-left:16%;
+}
 }
 
 
